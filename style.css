@@ -16,7 +16,7 @@ html {
 /* Header */
 header {
     background-image: linear-gradient(to bottom right, rgb(253, 253, 253), rgb(216, 203, 203), rgb(59, 55, 55));
-    border: solid 2px black;
+    border: solid 2px red;
 }
 
 .logo {
