@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    font-weight: 10px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+}
+
+/* Header */
+header {
+    background-image: linear-gradient(to bottom right, rgb(253, 253, 253), rgb(216, 203, 203), rgb(59, 55, 55));
+    border: solid 2px black;
+}
+
+.logo {
+    position: relative;
+    height: 100px;
+    left: 50px;
+}
+
+.navList {
+    position: relative;
+    float: right;
+    top: 40px;
+
+}
+
+.navList li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0 20px;
+}
+
+/* main */
+main {
+    background-color: rgb(247, 230, 230);
+    height: 400px;
+    padding: 2%;
+
+
+
+}
+
+/* Side */
+
+
+.sideFeature {
+    position: absolute;
+    background-color: red;
+    height: 350px;
+    width: 22%;
+}
+
+.mainFeature {
+    background-image: url('https://cosmosmagazine.com/wp-content/uploads/2020/02/191010_nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 2px black;
+    color: blue;
+    height: 350px;
+    width: 75%;
+    float: right;
+
+
+}
