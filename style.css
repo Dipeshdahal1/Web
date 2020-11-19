@@ -15,8 +15,8 @@ html {
 
 /* Header */
 header {
-    background-image: linear-gradient(to bottom right, rgb(253, 253, 253), rgb(216, 203, 203), rgb(59, 55, 55));
-    border: solid 2px red;
+    background-image: linear-gradient(to bottom, rgb(253, 253, 253), rgb(216, 203, 203), rgb(129, 128, 128));
+    border: solid 2px black;
 }
 
 .logo {
@@ -40,7 +40,7 @@ header {
 
 /* main */
 main {
-    background-color: rgb(247, 230, 230);
+    background-image: linear-gradient(to bottom, rgb(83, 83, 83), rgb(216, 214, 214), rgb(207, 204, 204));
     height: 400px;
     padding: 2%;
 
@@ -53,9 +53,10 @@ main {
 
 .sideFeature {
     position: absolute;
-    background-color: red;
+    background-image: linear-gradient(to bottom right, rgb(236, 229, 229), rgb(155, 152, 152), black);
     height: 350px;
     width: 22%;
+    text-align: center;
 }
 
 .mainFeature {
@@ -69,4 +70,34 @@ main {
     float: right;
 
 
+}
+
+.sideFeature h1 {
+    padding: 20px;
+}
+
+/* login */
+.log {
+    color: black;
+    font-size: 20px;
+    width: 175px;
+}
+
+.usertype {
+    text-transform: uppercase;
+    border: solid 1px black;
+    padding: 1px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+
+.sideFeature form {
+    margin: 10px;
+}
+
+.click {
+    width: 100px;
+    margin-top: 20px;
+    height: 25px;
 }
